@@ -1,0 +1,177 @@
+/* Header  styles */
+            .masthead
+            {
+                
+                display: block;
+                background-color: #DAB354;
+                font-family: 'Source Sans Pro', Helvetica, sans-serif;
+                font-size: 16px;
+                height: 150px;
+                line-height: 24px;
+                margin:0px;
+                padding-bottom: 0px;
+                padding-left: 00px;
+                padding-right: 00px;
+                padding-top: 0px;
+                position: relative;
+                text-decoration: none;
+                width: 100%;
+                clear: both;
+            }
+            .headrimgicon
+            {
+                position: relative;
+                float: left;
+                height
+                width:20%;
+                height: 120;
+
+            }
+            .site-title
+            {
+                color: rgb(255, 255, 255);
+                display: block;
+                /*font-family: Bitter, Georgia, serif;*/
+                font-family:'Arial';  float:left; 
+                /*font-size: 60px;*/
+                font-weight: bold;
+                height:100px;
+                /*height: 128px;*/
+                /*line-height: 60px;*/
+                margin-bottom: 0px;
+                margin-left: 10px;
+                margin-right: 0px;
+                margin-top: 30px;
+                padding-bottom: 0px;
+                padding-left: 0px;
+                padding-right: 0px;
+                /*padding-top: 50px;*/
+                position: relative;
+                text-align: center;
+                vertical-align: center; 
+                text-decoration: none;
+                width:50%;
+            }
+            .searchbox
+            {
+                float:left;
+                height:wrap-content;
+                position:relative;
+                margin-top:68px;
+                width: wrap-content;
+                height: 30px;
+            }
+            .mybutton
+            {
+                float:left;
+                position:relative;
+                margin-top:70px;
+                width:wrap-content;
+                height:wrap-content;
+                left:0px;
+            }
+            .advsearchbutton
+            {
+                float:left;
+                height:wrap-content;
+                left:0px;
+                margin-top:70px;
+                margin-left: 20px;  
+                position:relative;width:wrap-content;
+            }
+
+            /* End of Header styles */
+            /*Navigation Bar Styles*/
+
+
+
+
+#secnav
+{
+    margin-top: 60px;
+}
+
+
+#navbar22
+{
+    
+    
+     float: left;
+}
+ul
+{
+    padding:0px;
+    list-style: none;
+}
+    
+	ul li
+	{
+        display:block;
+        text-align: center;
+        line-height: 21px;
+	}
+	ul li a
+	{
+		display: block;
+        padding: 5px 10px;
+        color: #333;
+        background: #f2f2f2;
+        text-decoration: none;
+	}
+	ul li a:hover
+    {
+        color: #333;
+        background: #ebc970;
+    } 
+    ul li:hover ul
+    {
+        display:block;
+    }
+    ul li ul
+    {
+        display:none;
+        background: #f2f2f2;
+       /* color:#3399FF;*/
+    }
+    .sublinks
+    {
+        width: 100%;
+    }
+
+#navbar
+    {
+        position: relative;
+        float: left;
+        width: 20%;
+        height: 100%
+    }
+
+    /* End of Navigation Bar Styles*/
+/*Slider styles*/
+.s1
+{
+    float: left;
+    height:750px;
+    width:750px;
+
+}
+/*End of slider styles*/
+
+
+/*Footer Styles*/
+#footer
+{
+	position:fixed;
+	bottom:0px;
+	margin:0px;
+	padding:0px;
+	left:0px;
+	right:0px;
+	width:100%;
+	height:40px;
+	font-family:Arial;
+	text-shadow:1px 1px 1px black;
+	
+}
+
+/*End of footer styles*/
